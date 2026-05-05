@@ -1,0 +1,8 @@
+<div class="animals-grid">
+  @for (animal of animals; track animal.name) {
+    <div class="animal-item">
+      <div class="emoji">{{ animal.emoji }}</div>
+      <div class="name">{{ animal.name }}</div>
+    </div>
+  }
+</div>
