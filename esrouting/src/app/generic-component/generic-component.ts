@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, ParamMap } from '@angular/router';
-import { ANIMALS, FRUITS, Emoji } from '../models/emoji.models';
+import { ANIMALS, FRUITS, FOOD, VEHICLES ,Emoji } from '../models/emoji.models';
 
 @Component({
   selector: 'app-generic-component',
@@ -27,5 +27,7 @@ export class GenericComponent{
     //this.service.getTrack()
     if (uri_param == 'fruits') this.genVect = FRUITS;
     if (uri_param == 'animals') this.genVect = ANIMALS;
+    if (uri_param == 'food') this.genVect = FOOD;
+    if (uri_param == 'vehicles') this.genVect = VEHICLES;
   }
 }

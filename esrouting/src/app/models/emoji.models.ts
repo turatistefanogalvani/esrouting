@@ -61,3 +61,33 @@ export const FRUITS = [
     { name: 'ne7la', emoji: '🐝' },
     { name: 'koksinil', emoji: '🐞' }
   ];
+
+export const FOOD = [
+    { name: 'khobz', emoji: '🍞' },
+    { name: 'beid', emoji: '🥚' },
+    { name: 'foramj', emoji: '🧀' },
+    { name: 'batata', emoji: '🍟' },
+    { name: 'poutza', emoji: '🍕' },
+    { name: 'sandwich', emoji: '🥪' },
+    { name: 'tacos', emoji: '🌮' },
+    { name: 'kouskous', emoji: '🍲' },
+    { name: 'tajine', emoji: '🥘' },
+    { name: '7out', emoji: '🐟' },
+    { name: 'djaj', emoji: '🍗' },
+    { name: 'l7em', emoji: '🥩' },
+];
+
+export const VEHICLES = [
+    { name: 'tonobil', emoji: '🚗' },
+    { name: 'tomobil d sebba9', emoji: '🏎️' },
+    { name: 'lkamyon', emoji: '🚚' },
+    { name: 'tobis', emoji: '🚌' },
+    { name: 'tramway', emoji: '🚃' },
+    { name: 'tran', emoji: '🚆' },
+    { name: 'motor', emoji: '🛵' },
+    { name: 'pichklita', emoji: '🚲' },
+    { name: 'tayara', emoji: '✈️' },
+    { name: 'babour', emoji: '🚢' },
+    { name: 'helikobter', emoji: '🚁' },
+    { name: 'saroukh', emoji: '🚀' },
+];
